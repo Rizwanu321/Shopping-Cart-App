@@ -1,70 +1,74 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Shopping Cart Application
 
-## Available Scripts
+Welcome to the Shopping Cart Application, a simple React project designed to simulate a shopping cart experience with a free gift feature when a certain threshold is reached.
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+This application allows users to:
+- View a list of products.
+- Add products to a shopping cart.
+- Update the quantity of products in the cart.
+- Automatically receive a free gift when the cart total reaches ₹1000.
+- See a progress bar indicating how close they are to earning the free gift.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+- Node.js (version 14 or higher)
+- npm (version 6 or higher)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+1. **Clone the repository:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/Rizwanu321/Shopping-Cart-App.git
+   cd Shopping-Cart-App
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Install dependencies:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+3. **Run the application:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   The application will start and be available at `localhost:3000` in your web browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+Shopping-Cart-App/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Product.js
+│   │   ├── CartItem.js
+│   │   └── CartSummary.js
+│   ├── App.js
+│   ├── index.js
+│   └── styles.css
+├── package.json
+└── README.md
+```
 
-## Learn More
+## Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Product Listing:** Displays a list of products with options to add them to the cart.
+- **Cart Management:** Users can update quantities or remove items from the cart (except for the free gift).
+- **Free Gift:** Automatically adds a free Wireless Mouse when the cart total reaches ₹1000.
+- **Progress Bar:** Shows progress towards earning the free gift.
+- **User Interaction:** Smooth interactions for adding, updating, and removing items from the cart.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Website Link
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Visit the live website: [Shopping Cart Application](https://shopping-cart-app-beryl-one.vercel.app/)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
